@@ -1,6 +1,9 @@
 # House-PRICE-Prediction
 ML Project
 
+Aim is to predict the log-error between their Zestimate and the actual sale price, given all the features of a home. The log error is defined as logerror = log(Zestimate) - log(Sale Price) for the months in Fall 2017.
+
+CODE NOTEBOOK - #Attached
 # Files
 - `explanatory.ipynb` performs basic explanatory data analysis. The analysis is by no means comprehensive, since most ad-hoc data analysis were performed while extracting features and building models.
 - `feature_extraction.ipynb` cleans up the raw data, unifies data types and the representations of missing values, and extracts various kinds of features (eg. interaction features, region-based aggregate features). The features are saved to hdf5 files that can be easily loaded by other notebooks for modeling.
